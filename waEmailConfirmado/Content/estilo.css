@@ -1,0 +1,94 @@
+/* Estilos Gerais */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin: 0.5em 0;
+}
+
+p {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn {
+    border: 3px solid #fec63e;
+    padding: 10px 10px;
+    color: #fec63e;
+    font-size: 14px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+    .btn:hover {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .btn.btn-preto:hover {
+        color: #000;
+        border-color: #000;
+    }
+
+/***** Header *****/
+
+.header {
+    position: relative;
+    /*top: 0px;*/
+    background: #fec63e; /* Laranja */
+    padding: 15px 0;
+    z-index: 10;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+    .header_menu ul li {
+        display: inline-block;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+        .header_menu ul li a {
+            color: #000;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: .1em;
+            font-size: 14px;
+            line-height: 20px;
+            padding: 10px 0;
+        }
+
+            .header_menu ul li a:hover {
+                color: #FFF;
+            }
+
+            .header_menu ul li a.menu_ativo {
+                color: #FFF;
+            }
+
+/***** Corpo *****/
+.corpo {
+    width: 100%;
+    background-size: initial;
+    margin-top: 15px;
+    text-align: left;
+    position: initial;
+}
+
+/***** Footer *****/
+
+.footer {
+    margin: 30px 0 0 0;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+}

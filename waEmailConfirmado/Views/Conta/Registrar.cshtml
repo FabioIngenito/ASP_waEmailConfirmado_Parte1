@@ -1,0 +1,25 @@
+﻿@model waEmailConfirmado.ViewModels.ContaRegistrarViewModel
+@{
+    ViewBag.Title = "Registrar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <h1>Registrar</h1>
+
+    @using (Html.BeginForm())
+    {
+        <h2> Preencha os dados da sua conta. </h2>
+        <hr />
+
+        @Html.ValidationSummary("", new { @class = "" })
+
+        @Html.EditorForModel()
+
+        <br />
+        <p><input class="btn btn-preto" style="background-color: transparent" type="submit" value="REGISTRAR &raquo;" /></p>
+        <p><a class="btn btn-preto" href="~/">Início &raquo;</a></p>
+    }
+
+</div>
