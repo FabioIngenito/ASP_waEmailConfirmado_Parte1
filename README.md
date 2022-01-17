@@ -3,6 +3,8 @@
 ASP.NET
 Recurso de segurança de email confirmado - MVC Identity.EntityFramework (Versão 2.2.3) e .Owin (Versão 4.2.0)
 
+![waEmailConfirmado](https://user-images.githubusercontent.com/24603753/149820394-19c5b84e-2c72-4ff4-9e67-fbf43790ef8e.png)
+
 ---------------------------------
 *** ATENÇÃO!!! Configurar o REMETENTE e SENHA dentro do arquivo "Web.config" para o exemplo funcionar:
 ---------------------------------
